@@ -1,0 +1,40 @@
+.header {
+	width: 600px;
+	margin: 50px auto;
+}
+
+#canvas {
+	width: 500px;
+	height: 500px;
+	margin: auto;
+}
+
+.box {
+	border: 1px dotted #c8c8c8;
+	display: inline-block;
+	float: left;
+	box-sizing: border-box;
+	background-color: #FFF;
+}
+
+h1 {
+	width: 500px;
+	margin: 10px auto;
+	border: 1px solid #b2b2b2;
+	border-radius: 10px;
+	padding: 10px;
+	color: #b2b2b2;
+	font-size: 4em;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+}
+
+p {
+	width: 500px;
+	margin: 10px auto;
+	padding: 10px;
+	color: #b2b2b2;
+	font-size: 1.5em;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+}
