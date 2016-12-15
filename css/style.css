@@ -3,6 +3,33 @@
 	margin: 50px auto;
 }
 
+.controls {
+	width: 600px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+button {
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.5em;
+	margin: 0 25px;
+	padding: 3px 10px;
+	background-color: #FFF;
+	color: #777;
+	border: 1px solid #777;
+	border-radius: 12px;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+button:hover {
+	background-color: #777;
+	color: #FFF;
+}
+
 #canvas {
 	width: 500px;
 	height: 500px;
@@ -19,11 +46,11 @@
 
 h1 {
 	width: 500px;
+	background-color: #777;
 	margin: 10px auto;
-	border: 1px solid #b2b2b2;
 	border-radius: 10px;
 	padding: 10px;
-	color: #b2b2b2;
+	color: #FFF;
 	font-size: 4em;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
@@ -33,7 +60,7 @@ p {
 	width: 500px;
 	margin: 10px auto;
 	padding: 10px;
-	color: #b2b2b2;
+	color: #777;
 	font-size: 1.5em;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
