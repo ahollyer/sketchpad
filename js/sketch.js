@@ -48,10 +48,6 @@ $(document).ready(function() {
 		marker();
 	})
 
-	$('[name="paintbrush"]').click(function(){
-		paintbrush();
-	})
-
 	$('[name="rainbow"]').click(function(){
 		rainbow();
 	})
