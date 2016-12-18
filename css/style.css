@@ -1,6 +1,6 @@
 .header {
 	width: 600px;
-	margin: 50px auto;
+	margin: 10px auto;
 }
 
 .controls {
@@ -37,11 +37,14 @@ button:hover {
 }
 
 .box {
-	border: 1px dotted #c8c8c8;
 	display: inline-block;
 	float: left;
 	box-sizing: border-box;
 	background-color: #FFF;
+}
+
+.outline {
+	border: 1px dotted #c8c8c8;
 }
 
 h1 {
