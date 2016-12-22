@@ -16,7 +16,7 @@ function marker() {
 
 function eraser() {
 	$(".box").mouseenter(function(){
-		$(this).css("opacity", "0")
+		$(this).css("background-color", "#FFF")
 	})
 }
 
